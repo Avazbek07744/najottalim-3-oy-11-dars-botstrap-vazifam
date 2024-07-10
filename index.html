@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .div1 {
+            border-radius: 20px;
+        }
+
+        .card {
+            width: 380px;
+            background: rgba(193, 193, 230, 0.248);
+            border-radius: 15px;
+        }
+
+        .card-body .btn {
+            transition: all 0.5s ease-out;
+            color: #0D6EFD;
+
+            &:hover {
+                color: black;
+            }
+        }
+
+        #btn {
+            margin: auto;
+            display: flex;
+            background: #212529;
+            color: #F8F9FA;
+            border: 1px solid #212529;
+            transition: all 0.5s ease-out;
+
+            &:hover {
+                background-color: #F8F9FA;
+                color: black;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-primary">
+    <div class="div1 container bg-light mx-auto w-75 mb-5">
+        <h1 class="fs-1 fw-bold my-5 pt-5 text-center"><span class="text-primary">Bootstrap</span> Starter Kit</h1>
+        <p class="text-secondary text-center mb-4">Minimal started template for websites using Bootstrap 5 and Webpixels
+            <br>CSS next to the Eleventy static site generator
+        </p>
+        <button id="btn" class="btn mb-5">See on Github</button>
+
+        <div class="cards d-flex flex-wrap gap-3 justify-content-center ">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Eleventy</h5>
+                    <p class="card-text text-secondary mt-3">A simpeler static site generator that transforms a
+                        <br>directory of templates into HTML
+                    </p>
+                    <button type="button" class="btn">Documentation </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Webpixels CSS</h5>
+                    <p class="card-text text-secondary mt-3">Utility and component-centric design system <br> based on
+                        Bootstrap 5.</p>
+                    <button type="button" class="btn">Documentation </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Bootstrap 5</h5>
+                    <p class="card-text text-secondary mt-3">The worid's most popular freamework for building <br>
+                        responsive, mobile-first site</p>
+                    <button type="button" class="btn">Documentation </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Webpixels Components</h5>
+                    <p class="card-text text-secondary mt-3">Explower over 500 fully responsive and careful <br>
+                        designend Bootstrap components.</p>
+                    <button type="button" class="btn">Documentation </button>
+                </div>
+            </div>
+        </div>
+        <a id="bnt1" class="btn py-5 text-center d-block" href="">Made with ❤️ by <span
+                class="text-primary">Webpixels</span></a>
+    </div>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
